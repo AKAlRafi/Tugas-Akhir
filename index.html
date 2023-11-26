@@ -7,9 +7,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <script src="script.js">
+    <div id="login">
+        <div class="box">   
+            <img src="assets/Logo_of_possible_Nazi_beer.png" alt="" width="220" height="150">
+            <h1 class="joinTxt">JOIN THE NAZI PARTY!</h1>
+            <input type="text" placeholder="Username" id="usernameInput" class="input">
+            <input type="password" placeholder="Password" id="passwordInput" class="input">
+            <button onclick="onLogin()" id="loginBtn">Login</button>
+        </div>
+    </div>
 
-    </script>
+    <div id="main">
+        <div class="navbar">
+            <div class="top">
+                <div class="icon"></div>
+                <p>Wir Kampften Fur Deustchland!, Wir Kampften Fur Hitler!</p>
+                <button onclick="onLogout()" id="logoutBtn">Logout</button>
+            </div>
+        </div>
+        <video autoplay loop muted id="trailer">
+            <source src="assets/nazi.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

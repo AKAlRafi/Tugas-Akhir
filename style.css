@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(assets/background.jpg);
+    background-size: 100%;
+}
+
+.box {
+    background-color: black;
+    color: red;
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    margin: 0;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 25px;
+}
+
+.joinTxt {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.input {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+#loginBtn {
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    background-color: red;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 100px;
+}
+
+#loginBtn:hover {
+    background-color: rgb(137, 0, 0);
+}
+
+.navbar {
+    width: 100%;
+    background-color: black;
+    height: 10vh;
+    color: white;
+}
+
+.top {
+    display: flex;
+    background-color: black;
+    height: 8vh;
+}
+
+.icon {
+    height: 7vh;
+    width: 7vh;
+    border-radius: 7vh;
+    margin-left: 0.5vh;
+    margin-top: 0.5vh;
+    background-image: url(assets/logo.png);
+    background-size: 100%;
+}
+
+.top p {
+    margin-right: 70px;
+    margin-left: 13vh;
+    font-size: 50px;
+}
+
+#logoutBtn {
+    padding: 5px;
+    width: 100px;
+    background-color: red;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#logoutBtn:hover {
+    background-color: rgb(137, 0, 0);
+}
+
+#trailer {
+    width: 100%;
+}
