@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 100%;
+    height: 100vh;
+}
+
 #login {
     display: flex;
     justify-content: center;
@@ -73,22 +78,25 @@
     display: flex;
     background-color: black;
     height: 8vh;
+    width: 100%;
 }
 
 .icon {
     height: 7vh;
     width: 7vh;
     border-radius: 7vh;
-    margin-left: 0.5vh;
-    margin-top: 0.5vh;
     background-image: url(assets/logo.png);
     background-size: 100%;
+    margin-left: 1%;
 }
 
 .top p {
-    margin-right: 12vh;
-    margin-left: 11vh;
     font-size: 50px;
+    font-weight: bold;
+    margin-left: 19%;
+    margin-right: 18%;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #logoutBtn {
@@ -114,7 +122,8 @@
 .jews {
     background-color: rgb(45, 45, 45);
     border-radius: 15px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
     margin-left: 1%;
     padding: 4px;
     height: 40vh;
@@ -155,5 +164,58 @@
 
 .one .right {
     background-image: url(assets/anti.jpg);
-    background-size: 50%;
+    background-size: 100%;
+}
+
+.two .right {
+    background-image: url(assets/tank.png);
+    background-size: 100%;
+}
+
+.three .right {
+    background-image: url(assets/work.jpg);
+    background-size: 100%;
+}
+
+.akhir {
+    height: 50vh;
+    display: flex;
+    font-family: fantasy;
+}
+
+.garis {
+    width: 0.05%;
+    background-color: rgb(45, 45, 45);
+}
+
+.kiri {
+    width: 33.3%;
+}
+
+.tengah {
+    width: 33.3%;
+    text-align: center;
+}
+
+.kanan {
+    width: 33.3%;
+}
+
+.kanan h2 {
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.kanan ul {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: rgb(45, 45, 45);
+}
+
+.kanan ul li a {
+    color: rgb(45, 45, 45);
+}
+
+.lorem {
+    margin-bottom: 10px;
 }
